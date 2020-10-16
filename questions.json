@@ -1,0 +1,320 @@
+[
+	{
+		"question": "Which of the following is not JavaScript Data Types?",
+		"answer": "Float",
+		"explanation": "Following are the JavaScript Data types: Number, String, Boolean, Object, Undefined",
+		"options": [
+			"Undefined",
+			"Number",
+			"Boolean",
+			"Float"
+		]
+	},
+	{
+		"question": "Which company developed JavaScript?",
+		"answer": "Netscape",
+		"explanation": "Netscape is the software company who developed JavaScript.",
+		"options": [
+			"Netscape",
+			"Bell Labs",
+			"Sun Microsystems",
+			"IBM"
+		]
+	},
+	{
+		"question": "Inside which HTML element do we put the JavaScript?",
+		"answer": "<script>",
+		"explanation": "<script> is the element where we put the javascript.",
+		"options": [
+			"<script>",
+			"<head>",
+			"<meta>",
+			"<style>"
+		]
+	},
+	{
+		"question": "Which of the following is correct about features of JavaScript?",
+		"answer": "JavaScript is a object-based scripting language.",
+		"explanation": "Some features of javascripts are as follows: JavaScript give the user more control over the browser, handles dates and time, detects the user's browser and OS, is light weighted, is a scripting language and it is not java, is interpreter based scripting language, and is case sensitive.",
+		"options": [
+			"It can not Handling dates and time.",
+			"JavaScript is a object-based scripting language.",
+			"JavaScript is not interpreter based scripting language.",
+			"All of the above"
+		]
+	},
+	{
+
+		"question": "Choose the correct JavaScript syntax to change the content of the following HTML code.",
+		"answer": "document.getElementById (\"letsfindcourse\").innerHTML = \"I am a letsfindcourse\";",
+		"explanation": "Here we want to access the content written under that id, so we used .innerHTML to specify that and finally we replaced the content with whatever is written inside the quotes.",
+		"options": [
+			"document.getElement (\"letsfindcourse\").innerHTML = \"I am a letsfindcourse\";",
+			"document.getElementById (\"letsfindcourse\").innerHTML = \"I am a letsfindcourse\";",
+			"document.getId (\"letsfindcourse\") = \"I am a letsfindcourse\";",
+			"document.getElementById (\"letsfindcourse\").innerHTML = I am a letsfindcourse;"
+		]
+	},
+	{
+		"question": "Which of the following is the correct syntax to display \"Letsfindcourse\" in an alert box using JavaScript?",
+		"answer": "alert(\"Letsfindcourse\");",
+		"explanation": "To display any text in the alert box, you need to write it as alert(\"Letsfindcourse\");",
+		"options": [
+			"alert-box(\"Letsfindcourse\");",
+			"confirm(\"Letsfindcourse\");",
+			"msgbox(\"Letsfindcourse\");",
+			"alert(\"Letsfindcourse\");"
+		]
+	},
+	{
+		"question": "What is the correct syntax for referring to an external script called \"LFC.js\"?",
+		"answer": "<script src=\"LFC.js\">",
+		"explanation": "The \"src\" term is used to refer to any JavaScript file. JavaScript.",
+		"options": [
+			"<script src=\"LFC.js\">",
+			"<script source=\"LFC.js\">",
+			"<script ref=\"LFC.js\">",
+			"<script type=\"LFC.js\">"
+		]
+	},
+	{
+		"question": "Which of the following is not Javascript frameworks or libraries?",
+		"answer": "Cassandra",
+		"explanation": "Cassandra is a distributed database from Apache.So the option C is not Javascript frameworks or libraries.",
+		"options": [
+			"Polymer",
+			"Meteor",
+			"Cassandra",
+			"jQuery"
+		]
+	},
+	{
+		"question": "Why so JavaScript and Java have similar name?",
+		"answer": "JavaScript's syntax is loosely based on Java's",
+		"explanation": "Because JavaScript's syntax is loosely based on Java's that's why JavaScript and Java have similar name.",
+		"options": [
+			"JavaScript is a stripped-down version of Java",
+			"JavaScript's syntax is loosely based on Java's",
+			"They both originated on the island of Java",
+			"None of the above"
+		]
+	},
+	{
+		"question": "What is the original name of JavaScript?",
+		"answer": "Mocha",
+		"explanation": "The project was originally called Mocha, then renamed to LiveScript, and finally to JavaScript when Netscape and Sun did a license agreement. The idea at the time was to make it a scripting language complimentary to Java.",
+		"options": [
+			"LiveScript",
+			"EScript",
+			"Mocha",
+			"JavaScript"
+		]
+	},
+	{
+		"question": "JavaScript is designed for following purpose -",
+		"answer": "All of the above",
+		"explanation": "JavaScript is designed for all of the listed purposes",
+		"options": [
+			"to style HTML pages",
+			"to execute Queries related to databases on a server",
+			"to add interactivity to html pages",
+			"All of the above"
+		]
+	},
+	{
+		"question": "What will be the output of the following Javascript code?\n\tvar string1 = \"Letsfindcourse\";\n\tvar intvalue = 30;\n\talert( string1 + intvalue );",
+		"answer": "Letsfindcourse30",
+		"explanation": "In JavaScript the alert function does the type casting and converts the integer value to string. After that it concatenates both the strings and shows the result as a concatenated string but it don't add spaces. Thus Letsfindcourse30 would be correct.",
+		"options": [
+			"Letsfindcourse 30",
+			"30",
+			"Letsfindcourse30",
+			"Exception"
+		]
+	},
+	{
+		"question": "Among the following, which one is a ternary operator in JavaScript?",
+		"answer": "?:",
+		"explanation": "JavaScript supports one ternary operator, the conditional operator ?:, which combines three expressions into a single expression. If else case can be replaced by the conditional operator",
+		"options": [
+			"#",
+			"::",
+			"&:",
+			"?:"
+		]
+	},
+	{
+		"question": "What are the three important manipulations done in a for loop on a loop variable in javascript?",
+		"answer": "the initialization, the test, and the update",
+		"explanation": "In a for loop, the initialization, the test, and the update are the three crucial manipulations of a loop variable. Firstly the loop initialiases the variable then test the condition and then after executing the statement increments its value.",
+		"options": [
+			"the initialization, the Incrementation, and update",
+			"the initialization, the test, and the update",
+			"the initialization, the test, and Incrementation",
+			"All of the above"
+		]
+	},
+	{
+		"question": "What does javascript use instead of == and !=?",
+		"answer": "It uses === and !== instead",
+		"explanation": "The subset does not include the comma operator, the bitwise operators, or the ++ and — operators. It also disallows == and != because of the type conversion they perform, requiring use of === and !== instead.",
+		"options": [
+			"It uses bitwise checking",
+			"It uses === and !== instead",
+			"It uses equals() and notequals() instead",
+			"It uses equalto()"
+		]
+	},
+	{
+		"question": "What should appear at the very end of your JavaScript <pre><script language=\"javascript\"></pre> tag",
+		"answer": "</script>",
+		"explanation": "<pre></script></pre> Should appear at the very end of your JavaScript. The <script> element either contains scripting statements, or it points to an external script file through the src attribute.",
+		"options": [
+			"<script>",
+			"</script>",
+			"</script language=\"javascript\">",
+			"All of the above"
+		]
+	},
+	{
+		"question": "Among the keywords below, which one is not a statement?",
+		"answer": "use strict",
+		"explanation": "use strict is a directive introduced in ECMAScript5. Directives are not statements because it does not include any language keywords. Also, it can appear only at the start of a script or at the start of a function body, before any real statement has appeared.",
+		"options": [
+			"if",
+			"with",
+			"debugger",
+			"use strict"
+		]
+	},
+	{
+		"question": "How do we define the term Thread?",
+		"answer": "Controlled execution of applications",
+		"explanation": "Javascript is single-threaded. To clarify better, this means that one single thread handles the event loop. For older browsers, the whole browser shared one single thread between all the tabs.",
+		"options": [
+			"Device that controls input",
+			"Variable that controls movement",
+			"Controlled execution of applications",
+			"None of the above"
+		]
+	},
+	{
+		"question": "Which symbol is used for single-line comments in Javascript?",
+		"answer": "//",
+		"explanation": "Single line comments start with //.",
+		"options": [
+			"\\\\",
+			"//",
+			"\\* *\\",
+			"\\* */"
+		]
+	},
+	{
+		"question": "Which of them is not the looping structures in JavaScript?",
+		"answer": "forwhich",
+		"explanation": "forwhich is not the looping structures in JavaScript",
+		"options": [
+			"for",
+			"while",
+			"forwhich",
+			"dowhile"
+		]
+	},
+	{
+		"question": "What is defination of an undefined value in JavaScript?",
+		"answer": "All of the above",
+		"explanation": "Undefined value means the variable used in the code doesn't exist, doesn't have any value or property.",
+		"options": [
+			"Variable used in the code doesn't exist",
+			"Variable is not assigned to any value",
+			"Property doesn't exist",
+			"All of the above"
+		]
+	},
+	{
+		"question": "What are the types of Pop up boxes available in JavaScript?",
+		"answer": "All of the above",
+		"explanation": "All mentioned popup boxes are available in JavaScript",
+		"options": [
+			"Alert",
+			"Prompt",
+			"Confirm",
+			"All of the above"
+		]
+	},
+	{
+		"question": "What is the disadvantage of using innerHTML in JavaScript?",
+		"answer": "Even if you use +=like \"innerHTML = innerHTML + 'html'\" still the old content is replaced by html",
+		"explanation": "If you use innerHTML in JavaScript the disadvantage is content is replaced everywhere, we cannot use like \"appending to innerHTML\", even if you use +=like \"innerHTML = innerHTML + 'html'\" still the old content is replaced by html, the entire innerHTML content is re-parsed and build into elements, therefore its much slower, and innerHTML does not provide validation and therefore we can potentially insert valid and broken HTML in the document and break it.",
+		"options": [
+			"Content can not be replaced everywhere",
+			"We can use like \"appending to innerHTML\"",
+			"Even if you use +=like \"innerHTML = innerHTML + 'html'\" still the old content is replaced by html",
+			"The entire innerHTML content is not re-parsed and build into elements, therefore its not slower"
+		]
+	},
+	{
+		"question": "What are the two basic groups of dataypes in JavaScript?",
+		"answer": "All of the above",
+		"explanation": "Primitive types are number and Boolean data types. Reference types are more complex types like strings and dates.",
+		"options": [
+			"Primitive",
+			"Reference types.",
+			"All of the above",
+			"None of the above"
+		]
+	},
+	{
+		"question": "Which of the following are the errors in JavaScript?",
+		"answer": "All of the above",
+		"explanation": "Load-time errors are perhaps the most common and are generally caused by problems in syntax.\nRuntime error is a program error that occurs while the program is running.\nlogic error (or logical error) is a mistake in a program's source code that results in incorrect or unexpected behavior.",
+		"options": [
+			"Load time errors",
+			"Run time errors:",
+			"Logical Errors:",
+			"All of the above"
+		]
+	},
+	{
+		"question": "Which of the following are the functional components in JavaScript?",
+		"answer": "First-class functions",
+		"explanation": "The different functional components in JavaScript are First-class functions, Nested functions",
+		"options": [
+			"First-class functions",
+			"Encapsulated-class functions",
+			"Fixed-class functions",
+			"All of the above"
+		]
+	},
+	{
+		"question": "Which of the following is not the properties of screen objects in JavaScript?",
+		"answer": "ColorsDepth",
+		"explanation": "Screen objects are used to read the information from the client's screen. Their properties includes: AvailHeight, AvailWidth, ColorDepth, Width, Height",
+		"options": [
+			"AvailHeight",
+			"ColorsDepth",
+			"AvailWidth",
+			"ColorDepth"
+		]
+	},
+	{
+		"question": "Javascript string using double quotes is exactly the same as a string using single quotes?",
+		"answer": "True",
+		"explanation": "Using double quotes or single is the preference of the writer",
+		"options": [
+			"True",
+			"False"
+		]
+	},
+	{
+		"question": "Find output of below code \n\tvar a = '20';\n\tvar b = a = 30;\n\tdocument.write(a+b);",
+		"answer": "60",
+		"explanation", "The assigment overwrites the value stored in a",
+		"options": [
+			"Error in Script",
+			"'20'30",
+			"2030",
+			"60"
+		]
+	}
+]
