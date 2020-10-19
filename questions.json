@@ -309,7 +309,7 @@
 	{
 		"question": "Find output of below code \n\tvar a = '20';\n\tvar b = a = 30;\n\tdocument.write(a+b);",
 		"answer": "60",
-		"explanation", "The assigment overwrites the value stored in a",
+		"explanation": "The assigment overwrites the value stored in a",
 		"options": [
 			"Error in Script",
 			"'20'30",

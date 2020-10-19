@@ -111,6 +111,10 @@ hr {
 	padding: 30px;
 }
 
+.hide {
+	display: none;
+}
+
 #close {
 	margin: 0;
 	padding: 0;
