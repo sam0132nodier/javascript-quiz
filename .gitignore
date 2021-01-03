@@ -1,0 +1,3 @@
+# Target all Thumbs.db files created in directories
+
+*.db
