@@ -67,7 +67,8 @@ function initialize(questions) {
 		                  <button id="next" type="submit">Next</button>
 		                  </div>
 		                  </div>
-		                  </form>`
+						  </form>
+			`
 		);
 	});
 
