@@ -31,6 +31,41 @@ function countDown() {
     }
 }
 
+// Create an initialize function to format the data
+function initialize(questions) {
+	// Randomly sort questions and select 5 of them.
+	let selected = questions.sort(() => .5 - Math.random()).slice(0, 10);
+	// console.log(selected);
+	let selectedHtml = new Array();
+	selected.forEach((question) => {
+		let optionsHtml = [];
+		question.options.forEach ((option) => {
+			optionsHtml.push (`<div>
+				<input type="radio" id="id-${question.options.indexOf(option)}" name="answer" class="checkbox">
+				<label for="id-${question.options.indexOf(option)}"><li>${option}</li></label>
+			</div>`);
+		});
+		// console.log(optionsHtml);
+		selectedHtml.push(
+		`<p class="strong" id="question-text">${selected.indexOf(question) + 1}. ${question.question}</p>
+			<form action="" method="GET">
+				<ol class="options">
+					${shuffle(optionsHtml).join('\n')}
+				</ol>
+				<hr>
+				<div class="navigation">
+					<div class="timer"><p id="timer">01:00</p></div>
+					<div class="next">
+					<button id="next" type="submit">Next</button>
+					</div>
+				</div>
+			</form>`
+		);
+	});
+
+	displayData(selectedHtml, selected);
+}
+
 // Close the window the start button is clicked
 startButton.addEventListener('click', () => {
 	// Fetch data from the json file
