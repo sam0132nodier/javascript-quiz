@@ -17,6 +17,20 @@ function shuffle(array) {
 	return array;
 }
 
+// Display 1 minute timestamp
+let myInterval;
+let seconds = 60;
+function countDown() {
+	let minutesStr = '00';
+	seconds--;
+    let secondsStr = (seconds > 9) ? `${seconds}` : `0${seconds}`;
+    document.querySelector('#timer').textContent = `${minutesStr}:${secondsStr}`;
+    
+    if (seconds == 0) {
+        seconds = 60;
+    }
+}
+
 // Close the window the start button is clicked
 startButton.addEventListener('click', () => {
 	// Fetch data from the json file
