@@ -23,24 +23,24 @@
 	},
 	{
 		"question": "Inside which HTML element do we put the JavaScript?",
-		"answer": "<script>",
-		"explanation": "<script> is the element where we put the javascript.",
+		"answer": "<code>&ltscript&gt</code>",
+		"explanation": "<code>&ltscript&gt</code> is the element where we put the javascript.",
 		"options": [
-			"<script>",
-			"<head>",
-			"<meta>",
-			"<style>"
+			"<code>&ltscript&gt</code>",
+			"<code>&lthead&gt</code>",
+			"<code>&ltmeta&gt</code>",
+			"<code>&ltstyle&gt</code>"
 		]
 	},
 	{
 		"question": "Which of the following is correct about features of JavaScript?",
 		"answer": "JavaScript is a object-based scripting language.",
-		"explanation": "Some features of javascripts are as follows: JavaScript give the user more control over the browser, handles dates and time, detects the user's browser and OS, is light weighted, is a scripting language and it is not java, is interpreter based scripting language, and is case sensitive.",
+		"explanation": "Some features of Javascript are as follows: JavaScript give the user more control over the browser, handles dates and time, detects the user's browser and OS, is light weighted, is a scripting language and it is not java, is interpreter based scripting language, and is case sensitive.",
 		"options": [
-			"It can not Handling dates and time.",
+			"It can not handle dates and time.",
 			"JavaScript is a object-based scripting language.",
 			"JavaScript is not interpreter based scripting language.",
-			"All of the above"
+			"All answers are correct"
 		]
 	},
 	{
@@ -68,13 +68,13 @@
 	},
 	{
 		"question": "What is the correct syntax for referring to an external script called \"LFC.js\"?",
-		"answer": "<script src=\"LFC.js\">",
+		"answer": "<code>&ltscript src=\"LFC.js\"&gt</code>",
 		"explanation": "The \"src\" term is used to refer to any JavaScript file. JavaScript.",
 		"options": [
-			"<script src=\"LFC.js\">",
-			"<script source=\"LFC.js\">",
-			"<script ref=\"LFC.js\">",
-			"<script type=\"LFC.js\">"
+			"<code>&ltscript src=\"LFC.js\"&gt</code>",
+			"<code>&ltscript source=\"LFC.js\"&gt</code>",
+			"<code>&ltscript ref=\"LFC.js\"&gt</code>",
+			"<code>&ltscript type=\"LFC.js\"&gt</code>"
 		]
 	},
 	{
@@ -112,13 +112,13 @@
 	},
 	{
 		"question": "JavaScript is designed for following purpose -",
-		"answer": "All of the above",
+		"answer": "All answers are correct",
 		"explanation": "JavaScript is designed for all of the listed purposes",
 		"options": [
 			"to style HTML pages",
 			"to execute Queries related to databases on a server",
 			"to add interactivity to html pages",
-			"All of the above"
+			"All answers are correct"
 		]
 	},
 	{
@@ -145,13 +145,13 @@
 	},
 	{
 		"question": "What are the three important manipulations done in a for loop on a loop variable in javascript?",
-		"answer": "the initialization, the test, and the update",
+		"answer": "The initialization, the test, and the update",
 		"explanation": "In a for loop, the initialization, the test, and the update are the three crucial manipulations of a loop variable. Firstly the loop initialiases the variable then test the condition and then after executing the statement increments its value.",
 		"options": [
-			"the initialization, the Incrementation, and update",
-			"the initialization, the test, and the update",
-			"the initialization, the test, and Incrementation",
-			"All of the above"
+			"The initialization, the incrementation, and update",
+			"The initialization, the test, and the update",
+			"The initialization, the test, and incrementation",
+			"All answers are correct"
 		]
 	},
 	{
@@ -166,14 +166,14 @@
 		]
 	},
 	{
-		"question": "What should appear at the very end of your JavaScript <pre><script language=\"javascript\"></pre> tag",
-		"answer": "</script>",
-		"explanation": "<pre></script></pre> Should appear at the very end of your JavaScript. The <script> element either contains scripting statements, or it points to an external script file through the src attribute.",
+		"question": "What should appear at the very end of your JavaScript <code>&ltscript language=\"javascript\"&gt</code> tag",
+		"answer": "<code>&lt/script&gt</code>",
+		"explanation": "<code>&lt/script&gt</code> Should appear at the very end of your JavaScript. The <code>&ltscript&gt</code> element either contains scripting statements, or it points to an external script file through the src attribute.",
 		"options": [
-			"<script>",
-			"</script>",
-			"</script language=\"javascript\">",
-			"All of the above"
+			"<code>&ltscript&gt</code>",
+			"<code>&lt/script&gt</code>",
+			"<code>&lt/script language=\"javascript\"&gt</code>",
+			"All answers are correct"
 		]
 	},
 	{
@@ -222,24 +222,24 @@
 	},
 	{
 		"question": "What is defination of an undefined value in JavaScript?",
-		"answer": "All of the above",
+		"answer": "All answers are correct",
 		"explanation": "Undefined value means the variable used in the code doesn't exist, doesn't have any value or property.",
 		"options": [
 			"Variable used in the code doesn't exist",
 			"Variable is not assigned to any value",
 			"Property doesn't exist",
-			"All of the above"
+			"All answers are correct"
 		]
 	},
 	{
 		"question": "What are the types of Pop up boxes available in JavaScript?",
-		"answer": "All of the above",
+		"answer": "All answers are correct",
 		"explanation": "All mentioned popup boxes are available in JavaScript",
 		"options": [
 			"Alert",
 			"Prompt",
 			"Confirm",
-			"All of the above"
+			"All answers are correct"
 		]
 	},
 	{
@@ -255,24 +255,24 @@
 	},
 	{
 		"question": "What are the two basic groups of dataypes in JavaScript?",
-		"answer": "All of the above",
+		"answer": "All answers are correct",
 		"explanation": "Primitive types are number and Boolean data types. Reference types are more complex types like strings and dates.",
 		"options": [
 			"Primitive",
 			"Reference types.",
-			"All of the above",
+			"All answers are correct",
 			"None of the above"
 		]
 	},
 	{
 		"question": "Which of the following are the errors in JavaScript?",
-		"answer": "All of the above",
+		"answer": "All answers are correct",
 		"explanation": "Load-time errors are perhaps the most common and are generally caused by problems in syntax.\nRuntime error is a program error that occurs while the program is running.\nlogic error (or logical error) is a mistake in a program's source code that results in incorrect or unexpected behavior.",
 		"options": [
 			"Load time errors",
 			"Run time errors:",
 			"Logical Errors:",
-			"All of the above"
+			"All answers are correct"
 		]
 	},
 	{
@@ -283,7 +283,7 @@
 			"First-class functions",
 			"Encapsulated-class functions",
 			"Fixed-class functions",
-			"All of the above"
+			"All answers are correct"
 		]
 	},
 	{
@@ -309,7 +309,7 @@
 	{
 		"question": "Find output of below code \n\tvar a = '20';\n\tvar b = a = 30;\n\tdocument.write(a+b);",
 		"answer": "60",
-		"explanation": "The assigment overwrites the value stored in a",
+		"explanation": "The assignment overwrites the value stored in a",
 		"options": [
 			"Error in Script",
 			"'20'30",
