@@ -54,22 +54,21 @@ function initialize(questions) {
 			);
 		});
 		// console.log(optionsHtml);
-		selectedHtml.push(
-			`<p class="strong" id="question-text">${selected.indexOf(question) + 1}. ${question.question}</p>
-		                <form action="" method="GET">
-		                <ol class="options">
-		                ${shuffle(optionsHtml).join('\n')}
-		                </ol>
-		                <hr>
-		                <div class="navigation">
-		                <div class="timer"><p id="timer">01:00</p></div>
-		                <div class="next">
+		selectedHtml.push(`
+			<p class="strong" id="question-text">${selected.indexOf(question) + 1}. ${question.question}</p>
+			<form action="" method="GET">
+		        <ol class="options">
+		            ${shuffle(optionsHtml).join('\n')}
+		        </ol>
+		        <hr>
+		        <div class="navigation">
+		            <div class="timer"><p id="timer">01:00</p></div>
+		            <div class="next">
 		                <button id="next" type="submit">Next</button>
-		                </div>
-		                </div>
-						</form>
-			`
-		);
+		            </div>
+		        </div>
+			</form>
+			`);
 	});
 
 	displayData(selectedHtml, selected);
