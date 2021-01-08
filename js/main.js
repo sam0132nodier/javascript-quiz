@@ -26,11 +26,8 @@ function countDown() {
 	let secondsStr = seconds > 9 ? `${seconds}` : `0${seconds}`;
 	document.querySelector('#timer').textContent = `${minutesStr}:${secondsStr}`;
 
-	if (seconds == 56) {
-		document.querySelector('#next').click();
-		seconds = 60;
-	}
 	if (seconds == 0) {
+		document.querySelector('#next').click();
 		seconds = 60;
 	}
 }
