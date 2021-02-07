@@ -186,6 +186,7 @@ function displayData(html, selected) {
 						ratingSrc = "./img/stars10.jpg";
 						ratingAlt = "Perfect";
 					}
+
 					let gradeHTML = `
 						<img src="${ratingSrc}" alt="${ratingAlt}" id="rating" />
 						<button id="close-grade">+</button>
